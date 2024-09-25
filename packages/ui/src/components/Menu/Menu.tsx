@@ -55,8 +55,8 @@ export const Menu = () => {
         )}
       </nav>
         <a className={cn(s.appVersion, s.secondary)} target="_blank" rel="noreferrer"
-           href="https://github.com/felixmosh/bull-board/releases"
-        >{process.env.APP_VERSION}</a>
+           href="https://www.verdidata.no"
+        >{process.env.APP_VERSION} | verdidata.no</a>
     </aside>
   );
 };

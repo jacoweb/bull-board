@@ -7,7 +7,7 @@ import s from './Header.module.css';
 
 export const Header = ({ children }: PropsWithChildren<any>) => {
   const uiConfig = useUIConfig();
-  const logoPath = uiConfig.boardLogo?.path ?? getStaticPath('/images/logo.svg');
+  const logoPath = uiConfig.boardLogo?.path ?? getStaticPath('/images/vd-logo.png');
   const boardTitle = uiConfig.boardTitle ?? 'Bull Dashboard';
 
   return (
